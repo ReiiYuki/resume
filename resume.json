@@ -1,0 +1,204 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "V5n",
+    "label": "Software Developer",
+    "image": "",
+    "email": "contact@v5n.dev",
+    "phone": "",
+    "url": "https://v5n.dev",
+    "summary": "A passionate software developer with experience in modern web technologies and a strong commitment to creating efficient, scalable solutions.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "reiiyuki",
+        "url": "https://github.com/reiiyuki"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Company Name",
+      "position": "Software Developer",
+      "url": "https://company.com",
+      "startDate": "2022-01-01",
+      "endDate": "",
+      "summary": "Description of your role and responsibilities at this company.",
+      "highlights": [
+        "Developed and maintained web applications using React and Node.js",
+        "Collaborated with cross-functional teams to deliver high-quality software",
+        "Implemented automated testing and CI/CD pipelines"
+      ]
+    },
+    {
+      "name": "Previous Company",
+      "position": "Junior Developer",
+      "url": "https://previouscompany.com",
+      "startDate": "2020-06-01",
+      "endDate": "2021-12-31",
+      "summary": "Entry-level position where I gained foundational experience in software development.",
+      "highlights": [
+        "Built responsive web interfaces using HTML, CSS, and JavaScript",
+        "Participated in code reviews and agile development processes",
+        "Contributed to open-source projects"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Local Tech Meetup",
+      "position": "Organizer",
+      "url": "https://techmeetup.com",
+      "startDate": "2021-01-01",
+      "endDate": "",
+      "summary": "Organize monthly meetups for local developers to share knowledge and network.",
+      "highlights": [
+        "Coordinated events with 50+ attendees",
+        "Invited speakers from major tech companies"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University Name",
+      "url": "https://university.edu",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2016-09-01",
+      "endDate": "2020-05-31",
+      "score": "3.8",
+      "courses": [
+        "Data Structures and Algorithms",
+        "Software Engineering",
+        "Database Systems",
+        "Web Development"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Innovation Award",
+      "date": "2023-03-15",
+      "awarder": "Tech Conference 2023",
+      "summary": "Recognized for developing an innovative solution to improve user experience."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Certified Developer",
+      "date": "2022-08-15",
+      "issuer": "Amazon Web Services",
+      "url": "https://aws.amazon.com/certification/"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Building Scalable Web Applications",
+      "publisher": "Tech Blog",
+      "releaseDate": "2023-01-10",
+      "url": "https://techblog.com/scalable-web-apps",
+      "summary": "An article discussing best practices for building scalable web applications."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend Development",
+      "level": "Advanced",
+      "keywords": [
+        "React",
+        "Vue.js",
+        "TypeScript",
+        "HTML5",
+        "CSS3",
+        "Sass"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Intermediate",
+      "keywords": [
+        "Node.js",
+        "Express.js",
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Intermediate",
+      "keywords": [
+        "Docker",
+        "AWS",
+        "CI/CD",
+        "GitHub Actions",
+        "Kubernetes"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Conversational"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Technology",
+      "keywords": [
+        "Open Source",
+        "Machine Learning",
+        "Blockchain"
+      ]
+    },
+    {
+      "name": "Hobbies",
+      "keywords": [
+        "Photography",
+        "Hiking",
+        "Reading"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "It is my pleasure to recommend [Your Name]. They are a dedicated and skilled developer who consistently delivers high-quality work."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Personal Portfolio",
+      "description": "A responsive portfolio website showcasing my projects and skills",
+      "highlights": [
+        "Built with React and deployed on Netlify",
+        "Integrated with headless CMS for easy content management"
+      ],
+      "keywords": [
+        "React",
+        "Netlify",
+        "CMS"
+      ],
+      "startDate": "2022-03-01",
+      "endDate": "2022-04-15",
+      "url": "https://yourportfolio.com",
+      "roles": [
+        "Full-stack Developer"
+      ],
+      "entity": "Personal Project",
+      "type": "website"
+    }
+  ]
+}

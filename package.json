@@ -1,0 +1,30 @@
+{
+  "name": "resume-github-pages",
+  "version": "1.0.0",
+  "description": "Personal resume website using JSON Resume and GitHub Pages",
+  "main": "index.js",
+  "scripts": {
+    "build": "resume export index.html --theme elegant",
+    "serve": "resume serve --theme elegant",
+    "validate": "resume validate",
+    "deploy": "gh-pages -d ."
+  },
+  "keywords": [
+    "resume",
+    "json-resume",
+    "github-pages",
+    "portfolio"
+  ],
+  "author": "V5n",
+  "license": "MIT",
+  "devDependencies": {
+    "resume-cli": "^3.0.8",
+    "jsonresume-theme-elegant": "^1.17.0",
+    "gh-pages": "^6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reiiyuki/resume.git"
+  },
+  "homepage": "https://reiiyuki.github.io/resume/"
+}
