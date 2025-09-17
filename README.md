@@ -23,7 +23,7 @@ cd resume
 ### 2. Install Dependencies
 
 ```bash
-npm install
+pnpm install
 ```
 
 ### 3. Customize Your Resume
@@ -34,13 +34,13 @@ Edit the `resume.json` file with your personal information. The file follows the
 
 ```bash
 # Validate your resume data
-npm run validate
+pnpm run validate
 
 # Serve locally with hot reload
-npm run serve
+pnpm run serve
 
 # Build static HTML
-npm run build
+pnpm run build
 ```
 
 ### 5. Deploy to GitHub Pages
@@ -140,7 +140,7 @@ This setup uses the "elegant" theme by default. You can change themes by:
 
 1. **Install a different theme**:
    ```bash
-   npm install jsonresume-theme-THEME_NAME
+   pnpm add jsonresume-theme-THEME_NAME
    ```
 
 2. **Update build script** in `package.json`:
@@ -216,10 +216,10 @@ Automatic deployment via GitHub Actions (already configured).
 
 ```bash
 # Build the resume
-npm run build
+pnpm run build
 
 # Deploy to gh-pages branch
-npm run deploy
+pnpm run deploy
 ```
 
 ### Other Platforms
@@ -237,16 +237,16 @@ The generated `index.html` can be deployed to:
 
 ```bash
 # Install dependencies
-npm install
+pnpm install
 
 # Start development server
-npm run serve
+pnpm run serve
 
 # Validate resume data
-npm run validate
+pnpm run validate
 
 # Build for production
-npm run build
+pnpm run build
 ```
 
 ### File Structure
@@ -291,7 +291,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Verify the workflow has proper permissions
 
 **Validation errors:**
-- Run `npm run validate` locally
+- Run `pnpm run validate` locally
 - Check JSON syntax in `resume.json`
 - Refer to the [JSON Resume schema](https://jsonresume.org/schema/)
 
