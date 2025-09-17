@@ -1,53 +1,48 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "V5n",
-    "label": "Software Developer",
+    "name": "Voraton Lertrattanapaisal",
+    "label": "Staff Software Engineer",
     "image": "",
     "email": "contact@v5n.dev",
     "phone": "",
     "url": "https://v5n.dev",
-    "summary": "A passionate software developer with experience in modern web technologies and a strong commitment to creating efficient, scalable solutions.",
+    "summary": "Staff Software Engineer at LINE MAN Wongnai with a focus on architecting scalable web applications. Experienced in leading development teams, managing complex projects, and mentoring junior developers. Passionate about creating efficient, scalable solutions and driving successful product development.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "",
-      "countryCode": "",
-      "region": ""
+      "city": "Bangkok",
+      "countryCode": "TH",
+      "region": "Bangkok Metropolitan Area"
     },
     "profiles": [
       {
         "network": "GitHub",
         "username": "reiiyuki",
         "url": "https://github.com/reiiyuki"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "voraton-lertrattanapaisal-b5124a12a",
+        "url": "https://www.linkedin.com/in/voraton-lertrattanapaisal-b5124a12a/"
       }
     ]
   },
   "work": [
     {
-      "name": "Company Name",
-      "position": "Software Developer",
-      "url": "https://company.com",
-      "startDate": "2022-01-01",
+      "name": "LINE MAN Wongnai",
+      "position": "Staff Software Engineer",
+      "url": "https://www.lineman.line.me/",
+      "startDate": "2018-01-01",
       "endDate": "",
-      "summary": "Description of your role and responsibilities at this company.",
+      "summary": "Leading software engineering initiatives at Thailand's leading food delivery and restaurant discovery platform. Architecting scalable web applications and managing cross-functional development teams.",
       "highlights": [
-        "Developed and maintained web applications using React and Node.js",
-        "Collaborated with cross-functional teams to deliver high-quality software",
-        "Implemented automated testing and CI/CD pipelines"
-      ]
-    },
-    {
-      "name": "Previous Company",
-      "position": "Junior Developer",
-      "url": "https://previouscompany.com",
-      "startDate": "2020-06-01",
-      "endDate": "2021-12-31",
-      "summary": "Entry-level position where I gained foundational experience in software development.",
-      "highlights": [
-        "Built responsive web interfaces using HTML, CSS, and JavaScript",
-        "Participated in code reviews and agile development processes",
-        "Contributed to open-source projects"
+        "Leads multiple projects by convening teams to examine requirements, break them down into tasks, and assign efficiently",
+        "Provides quick assistance and viable solutions when problems arise, offering both short and long-term remedies",
+        "Mentors and coaches interns and junior developers, successfully training them as a senior developer",
+        "Handles hiring processes flawlessly, resulting in the addition of high-quality Frontend developers to the team",
+        "Motivates coworkers to develop successful products and features",
+        "Digs deep into situations to find root causes of issues and offers informed decision-making support"
       ]
     }
   ],
@@ -67,35 +62,48 @@
   ],
   "education": [
     {
-      "institution": "University Name",
-      "url": "https://university.edu",
-      "area": "Computer Science",
-      "studyType": "Bachelor of Science",
-      "startDate": "2016-09-01",
-      "endDate": "2020-05-31",
-      "score": "3.8",
+      "institution": "Kasetsart University",
+      "url": "https://www.ku.ac.th/",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2014-01-01",
+      "endDate": "2018-12-31",
+      "score": "",
       "courses": [
-        "Data Structures and Algorithms",
         "Software Engineering",
         "Database Systems",
-        "Web Development"
+        "Web Development",
+        "Computer Networks",
+        "Data Structures and Algorithms"
       ]
     }
   ],
   "awards": [
     {
-      "title": "Best Innovation Award",
-      "date": "2023-03-15",
-      "awarder": "Tech Conference 2023",
-      "summary": "Recognized for developing an innovative solution to improve user experience."
+      "title": "JASSO Scholarship",
+      "date": "2017-06-01",
+      "awarder": "Japan Student Services Organization (JASSO)",
+      "summary": "Scholarship awarded for academic excellence and participation in Japanese business innovation program."
     }
   ],
   "certificates": [
     {
-      "name": "AWS Certified Developer",
-      "date": "2022-08-15",
-      "issuer": "Amazon Web Services",
-      "url": "https://aws.amazon.com/certification/"
+      "name": "Certificate of Completion \"Time Management\"",
+      "date": "2018-07-01",
+      "issuer": "Wongnai.com",
+      "url": ""
+    },
+    {
+      "name": "The Certificate of Completion \"THE COMPREHENSIVE COURSE IN JAPANESE BUSINESS INNOVATION\"",
+      "date": "2018-06-01",
+      "issuer": "Japanese Chamber of Commerce, Bangkok",
+      "url": ""
+    },
+    {
+      "name": "Certificate of Completion \"Writing Workshop\"",
+      "date": "2018-01-01",
+      "issuer": "Wongnai.com",
+      "url": ""
     }
   ],
   "publications": [
@@ -146,12 +154,12 @@
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Native speaker"
+      "language": "Thai",
+      "fluency": "Native or bilingual proficiency"
     },
     {
-      "language": "Spanish",
-      "fluency": "Conversational"
+      "language": "English",
+      "fluency": "Professional working proficiency"
     }
   ],
   "interests": [
