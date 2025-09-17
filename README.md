@@ -136,7 +136,7 @@ Organize your skills by category:
 
 ## 🎨 Themes
 
-This setup uses the "elegant" theme by default. You can change themes by:
+This setup uses the "macchiato" theme by default. You can change themes by:
 
 1. **Install a different theme**:
    ```bash
@@ -153,6 +153,7 @@ This setup uses the "elegant" theme by default. You can change themes by:
    ```
 
 3. **Popular themes**:
+   - `jsonresume-theme-macchiato` (current)
    - `jsonresume-theme-elegant`
    - `jsonresume-theme-paper`
    - `jsonresume-theme-kendall`

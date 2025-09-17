@@ -4,8 +4,8 @@
   "description": "Personal resume website using JSON Resume and GitHub Pages",
   "main": "index.js",
   "scripts": {
-    "build": "resume export index.html --theme elegant",
-    "serve": "resume serve --theme elegant",
+    "build": "resume export index.html --theme macchiato",
+    "serve": "resume serve --theme macchiato",
     "validate": "resume validate",
     "deploy": "gh-pages -d ."
   },
@@ -19,7 +19,7 @@
   "license": "MIT",
   "devDependencies": {
     "gh-pages": "^6.0.0",
-    "jsonresume-theme-elegant": "^1.16.1",
+    "jsonresume-theme-macchiato": "^1.1.0",
     "resume-cli": "^3.1.2"
   },
   "repository": {
