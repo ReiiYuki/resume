@@ -41,9 +41,19 @@ function removePdfUrl() {
 function generatePdf() {
   log('Generating PDF with resumed...');
   try {
+    // Set Puppeteer launch options for CI environments
+    const env = { ...process.env };
+    
+    // If PUPPETEER_ARGS is set (from CI), use those arguments
+    if (process.env.PUPPETEER_ARGS) {
+      env.PUPPETEER_LAUNCH_ARGS = process.env.PUPPETEER_ARGS;
+      log(`Using Puppeteer args: ${process.env.PUPPETEER_ARGS}`);
+    }
+    
     execSync('resumed export -o resume.pdf --theme jsonresume-theme-macchiato-custom', {
       stdio: 'inherit',
-      cwd: path.join(__dirname, '..')
+      cwd: path.join(__dirname, '..'),
+      env
     });
     log('PDF generation completed successfully');
   } catch (error) {
