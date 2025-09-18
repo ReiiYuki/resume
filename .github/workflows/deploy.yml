@@ -79,7 +79,7 @@ jobs:
     #     PUPPETEER_ARGS: "--no-sandbox --disable-setuid-sandbox --disable-dev-shm-usage --disable-accelerated-2d-canvas --no-first-run --no-zygote --single-process --disable-gpu --headless=new"
       
     - name: Rename resume file
-      run: cp index.html resume.html
+      run: cp resume.html index.html
       
     - name: Setup Pages
       uses: actions/configure-pages@v4
