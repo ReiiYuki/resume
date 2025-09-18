@@ -2,18 +2,15 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Voraton Lertrattanapaisal",
-    "label": "Staff Software Engineer",
-    "image": "",
-    "email": "contact@v5n.dev",
-    "phone": "",
-    "url": "https://v5n.dev",
-    "summary": "Staff Software Engineer at LINE MAN Wongnai with a focus on architecting scalable web applications. Experienced in leading development teams, managing complex projects, and mentoring junior developers. Passionate about creating efficient, scalable solutions and driving successful product development.",
+    "label": "Staff Software Engineer at LINE MAN Wongnai",
+    "email": "voraton.lps@gmail.com",
+    "phone": "(+66) 830368769",
+    "summary": "A highly influential Staff Software Engineer who drives major product innovation and architectural strategy, with a career defined by architecting and launching critical 'zero-to-one' products and foundational platforms from the ground up. Repeatedly delivered high-impact initiatives—including new business verticals, the company's first micro-frontend, and numerous developer frameworks—while demonstrating a clear progression from an intern to a cross-company technical leader. A dedicated mentor and bar-raiser focused on unifying engineering standards, scaling teams, and driving a culture of technical excellence.",
     "location": {
       "address": "",
       "postalCode": "",
       "city": "Bangkok",
-      "countryCode": "TH",
-      "region": "Bangkok Metropolitan Area"
+      "countryCode": "Thailand"
     },
     "profiles": [
       {
@@ -26,134 +23,298 @@
         "username": "voraton-lertrattanapaisal-b5124a12a",
         "url": "https://www.linkedin.com/in/voraton-lertrattanapaisal-b5124a12a/"
       }
-    ]
+    ],
+    "pdfUrl": "https://reiiyuki.github.io/resume/resume.pdf"
   },
   "work": [
     {
-      "name": "LINE MAN Wongnai",
+      "company": "LINE MAN Wongnai",
       "position": "Staff Software Engineer",
-      "url": "https://www.lineman.line.me/",
-      "startDate": "2018-01-01",
-      "summary": "Leading software engineering initiatives at Thailand's leading food delivery and restaurant discovery platform. Architecting scalable web applications and managing cross-functional development teams.",
+      "startDate": "2025",
+      "summary": "Drove the successful launch of the LINE MAN Deal product, a brand-new business vertical for the company. Led the end-to-end technical strategy and execution, from initial architecture to production deployment under a highly compressed timeline, while simultaneously building and mentoring a new team of engineers to deliver a high-quality product.",
       "highlights": [
-        "Leads multiple projects by convening teams to examine requirements, break them down into tasks, and assign efficiently",
-        "Provides quick assistance and viable solutions when problems arise, offering both short and long-term remedies",
-        "Mentors and coaches interns and junior developers, successfully training them as a senior developer",
-        "Handles hiring processes flawlessly, resulting in the addition of high-quality Frontend developers to the team",
-        "Motivates coworkers to develop successful products and features",
-        "Digs deep into situations to find root causes of issues and offers informed decision-making support"
+        "Spearheaded the 'zero-to-one' development of the LINE MAN Deal product, successfully launching a new business vertical for the company from concept to production on an aggressive schedule.",
+        "Acted as the technical lead for the entire project, defining the end-to-end solution architecture and serving as the final authority on all technical decisions, risk assessments, and code quality reviews.",
+        "Successfully onboarded and coached a newly formed team of engineers, guiding them to establish the best practices necessary to deliver a high-quality, scalable product in a new domain."
+      ]
+    },
+    {
+      "summary": "Set the long-term technical direction for the LINE MAN web platform by architecting foundational, cross-platform solutions and serving as the principal technical consultant for all new web initiatives. Drove a major architectural proposal for a unified universal and app link strategy to improve user experience across the entire ecosystem.",
+      "highlights": [
+        "Architected and championed a new, scalable strategy for universal links and app links across the entire LINE MAN ecosystem, a foundational initiative to create a seamless user journey between web and mobile apps.",
+        "Served as the primary technical consultant and advisor for all new web-related product initiatives, providing architectural guidance to multiple development teams to ensure scalability, quality, and alignment with the long-term technical vision."
+      ]
+    },
+    {
+      "summary": "Drove technical excellence and alignment across the LINE MAN Wongnai group of companies, providing expert consultation on security and maintainability for key products including LINE MAN, LINE Pay, Wongnai, and FoodStory. Spearheaded the unification of engineering standards across disparate web platform teams and was a primary driver of the group's web talent acquisition efforts.",
+      "highlights": [
+        "Served as a principal technical consultant for the entire company group, providing critical guidance on security and long-term maintainability for major platforms including LINE MAN, LINE Pay, Wongnai, and FoodStory to help teams mitigate risks.",
+        "Led a cross-organizational initiative to align the web platform teams from multiple companies, establishing a unified set of high engineering standards to foster a cohesive and high-quality development culture.",
+        "Owned a key part of the group's talent acquisition strategy, acting as a lead interviewer and technical bar-raiser to recruit high-quality web engineering candidates across all companies in the ecosystem."
+      ]
+    },
+    {
+      "summary": "Set the strategic technical direction for the frontend web platform by defining its long-term roadmap and ensuring seamless integration with the broader mobile ecosystem. Drove initiatives to elevate engineering standards, architected systemic solutions to critical performance issues, and collaborated at a staff-level to solve complex web-to-mobile challenges.",
+      "highlights": [
+        "Established and evangelized the technical roadmap for the frontend web platform, guiding teams toward a unified direction and introducing higher standards for quality and scalability.",
+        "Partnered with the Staff Engineer of the mobile platform to architect and champion a unified strategy for web-to-mobile integration, creating a seamless user experience across both platforms.",
+        "Pioneered an advanced performance optimization strategy for mobile webviews, going beyond conventional client-side rendering improvements. The solution focused on minimizing network transfer times and accelerating the native application's webview bootstrap process, setting a new performance benchmark."
+      ]
+    },
+    {
+      "position": "Senior Software Engineer",
+      "startDate": "2020",
+      "endDate": "2025",
+      "summary": "Drove major architectural and product innovation within the LINE Ecosystem by spearheading multiple 'zero-to-one' initiatives, including the company's first micro-frontend service, a new in-store ordering platform, and a reusable design system. Also led a strategic proposal for migrating the core LIFF platform from Vue to React and improved cross-team collaboration by designing new development workflows.",
+      "highlights": [
+        "Pioneered the organization's first micro-frontend architecture by conceptualizing and building the 'MyRestaurant' service from the ground up for the LINE OA+ platform.",
+        "Architected and developed two foundational platforms from scratch: a reusable React design system for LINE OA+ and a multi-purpose LIFF service to accelerate the launch of new marketing campaigns.",
+        "Led a strategic initiative to migrate the LINE MAN LIFF platform from Vue.js to React, including developing the migration concept and designing new cross-organizational development workflows.",
+        "Owned the end-to-end development of critical product features, including a new in-store, self-service ordering system and the integration of a new E-Payment solution for the LIFF platform.",
+        "Mentored and upskilled junior developers and interns, empowering them to deliver high-impact features for the 'Dine In' and 'MyRestaurant' products."
+      ]
+    },
+    {
+      "summary": "Drove key product and platform initiatives for LINE MAN that increased user engagement and engineering efficiency. Developed cross-platform gamification campaigns and a new user retention feature (LINE MAN Packages), while simultaneously improving developer velocity by architecting a self-service gamification platform, shared TypeScript libraries, and novel developer tools.",
+      "highlights": [
+        "Architected a self-service gamification platform that provided two core capabilities: a dynamic system for custom campaigns and a configurable engine for new mini-games, eliminating repetitive engineering effort for both.",
+        "Improved developer velocity and code quality by establishing a new shared TypeScript library and by creating a custom developer tool to solve remote development CORS issues.",
+        "Mentored and guided a frontend intern to successfully execute a critical infrastructure project: rebuilding and upgrading the core of a foundational team project with the latest libraries.",
+        "Developed and launched the 'LINE MAN Packages' feature, a new product initiative designed to increase user retention and loyalty by offering high-value subscription packages.",
+        "Served as the technical subject matter expert (SME) for all LINE MAN web views, responsible for reviewing architectural decisions and ensuring high standards of quality and performance."
+      ]
+    },
+    {
+      "summary": "Owned the high-stakes initiative to launch LINE MAN within the WeChat ecosystem, a time-critical project that positioned the company as the first Thai food delivery service on the platform. Drove the technical vision for the new mini-program by architecting key components for internationalization and state management, while collaborating with international teams to deliver a successful product launch.",
+      "highlights": [
+        "Achieved a significant first-mover advantage by engineering and launching the LINE MAN WeChat Mini Program, breaking into a new market and establishing the first Thai food delivery presence on the platform.",
+        "Drove the project's long-term technical strategy by proposing and designing a foundational internationalization (I18n) framework and a scalable atomic state management architecture.",
+        "Successfully executed the project under an aggressive deadline, delivering a production-ready application complete with a secure WeChat Pay integration to facilitate e-commerce.",
+        "Navigated a complex, cross-functional environment by collaborating effectively with the LINE MAN team in Dalian to align on technical requirements and ensure a smooth product integration."
+      ]
+    },
+    {
+      "summary": "Focused on strengthening the frontend organization's talent and engineering practices by designing and implementing new development processes, driving the hiring process, providing dedicated 1:1 mentorship, and establishing company-wide coding standards.",
+      "highlights": [
+        "Championed and implemented new, standardized development processes across the frontend team, a key initiative focused on boosting productivity and ensuring all products were built to a high standard of quality.",
+        "Co-authored and championed a new set of frontend coding standards to unify development practices and improve code quality across the entire organization.",
+        "Actively involved in the end-to-end recruitment process for frontend engineers, from screening to technical interviews, helping to build a high-caliber engineering team.",
+        "Provided dedicated 1:1 mentorship and coaching to interns and part-time developers, focusing on their professional growth and technical skills."
+      ]
+    },
+    {
+      "company": "Wongnai Media Company Limited",
+      "position": "Senior Software Engineer",
+      "releaseDate": "2020",
+      "summary": "Architected and delivered a time-sensitive e-contract automation platform to solve a critical business challenge during the COVID-19 crisis. Owned the end-to-end development across a diverse technology stack and enabled long-term scalability by creating detailed documentation that successfully upskilled the entire ERP team.",
+      "highlights": [
+        "Transformed the partner onboarding process by delivering a self-service e-contracting system that, for the first time, empowered merchants to complete their GP contract registration entirely within the merchant app, supporting rapid growth during the pandemic.",
+        "Engineered the solution across four languages, integrating a React frontend, Restify.js (BFF), a Java Spring microservice, and a Python Odoo ERP via an asynchronous RabbitMQ messaging bus.",
+        "Pioneered a set of comprehensive developer guides and architectural documents that successfully upskilled the Python ERP team, empowering them to confidently maintain and extend a complex, cross-language service architecture."
+      ]
+    },
+    {
+      "summary": "Improved both product quality and team velocity by leading initiatives to formalize the frontend development process, taking ownership of critical payment infrastructure, and demonstrating a strong commitment to team growth by mentoring junior talent on high-visibility projects.",
+      "highlights": [
+        "Designed and implemented a new frontend task distribution workflow, a strategic process that formalizes technical design and risk assessment to create higher-quality engineering tasks and reduce future maintenance overhead.",
+        "Empowered a team of interns to build and launch two business-critical features from inception: the RLP integration for food delivery and the entire Wongnai Pick Up on-site ordering platform, showcasing strong coaching and delegation skills.",
+        "Led the continuous improvement and feature development for the Wongnai deal product's payment section, a core component requiring a deep focus on security, reliability, and user experience."
+      ]
+    },
+    {
+      "summary": "Owned the complete, 'zero-to-one' development of a new in-store ordering product, a strategic initiative to introduce self-service capabilities to the LINE MAN ecosystem. As the sole engineer, architected and built the entire platform from the ground up on LIFF, from initial concept to a successful production launch.",
+      "highlights": [
+        "Led a major product innovation by developing the first feature that enabled customers to self-service order at restaurant tables, fundamentally changing the in-store dining experience.",
+        "Architected and single-handedly developed the entire in-store ordering solution on the LIFF platform, handling all aspects of development and integration to bring the new product to market.",
+        "The successful launch of this self-service platform created a significant new value proposition for both restaurant partners and their customers within the LINE ecosystem."
+      ]
+    },
+    {
+      "summary": "Drove a culture of engineering excellence within the Frontend Platform team by spearheading initiatives that improved code quality, developer efficiency, and team capabilities. Key contributions include championing a mandatory 80% unit test coverage policy, architecting shared infrastructure like a centralized logic library, and owning the talent development lifecycle from hiring to mentorship.",
+      "highlights": [
+        "Championed and successfully implemented a new engineering standard requiring 80% unit test coverage across all frontend projects, significantly raising the bar for code quality and reliability.",
+        "Pioneered and architected a centralized shared logic library from the ground up, a strategic initiative that created a single source of truth and reduced code duplication across multiple teams.",
+        "Mentored and empowered a team of interns to architect and deliver critical platform improvements, including a changelog versioning tool and a core library that unified duplicated SSR and Webpack logic.",
+        "Contributed directly to talent development by interviewing and hiring new engineers, and by leading training sessions to upskill the entire frontend team.",
+        "Owned the operational stability of core frontend services, leading the investigation and resolution of production issues to ensure high availability."
+      ]
+    },
+    {
+      "position": "Software Engineer",
+      "startDate": "2018",
+      "endDate": "2020",
+      "summary": "A key Software Engineer in the Food Delivery and Restaurant Solutions division, responsible for architecting and launching critical new products from the ground up. Drove the development of major user acquisition platforms in React and built an end-to-end restaurant onboarding system using Python (Django) and API Gateway services. Also instrumental in team growth by mentoring junior engineers on high-impact initiatives that resulted in significant cost savings and improved search engine visibility.",
+      "highlights": [
+        "Pioneered a multi-service web architecture from the ground up, a foundational change that optimized server-side rendering performance and empowered multiple teams to independently develop and maintain their products.",
+        "Spearheaded the development of the Wongnai Delivery website, building the platform from scratch in React to allow users to order from LINE MAN without the mobile app, thereby opening a major new web-based acquisition funnel.",
+        "Owned the end-to-end development of an automated restaurant claim system, leveraging expertise in React, API Gateway services, and Django to create a fast-track onboarding process that reduced manual effort and accelerated partner growth.",
+        "Coached and upskilled new engineers and interns on technically complex projects, leading to the successful launch of a restaurant CRM (Wongnai Reward), a significant cost reduction in Map API usage, and enhanced Google SEO via carousel search results.",
+        "Built and launched the Wongnai POS marketing website from inception using React, creating a vital sales and information hub for a flagship B2B product."
+      ]
+    },
+    {
+      "summary": "Led the front-end development for the 2C2P payment gateway integration, building the complete client-side experience for all Wongnai Deal Product transactions.",
+      "highlights": [
+        "Developed the entire user-facing payment workflow, from payment method selection to handling the final transaction status callbacks on the client-side.",
+        "Partnered with the backend team to integrate the user interface with secure payment APIs, ensuring a robust and reliable checkout experience."
+      ]
+    },
+    {
+      "summary": "Tasked with enhancing the technical foundation and feature set of the LINE MAN LIFF platform. Led a critical initiative to restructure a legacy Vue.js application to improve maintainability, and architected a scalable theming solution to support multi-brand strategies. Also responsible for delivering new, high-value features for users and restaurant partners.",
+      "highlights": [
+        "Executed a complete architectural restructure of a legacy Vue.js LIFF project, establishing a modern, maintainable foundation that reduced technical debt and accelerated new feature delivery.",
+        "Pioneered the concept and development of a dynamic theming system for the LIFF ecosystem, creating a scalable solution that allows for rapid UI customization across multiple brands.",
+        "Built and deployed core product features for restaurant collections and chains, directly improving the user's ability to discover restaurants and strengthening relationships with major chain partners."
+      ]
+    },
+    {
+      "summary": "Drove the creation of foundational tools and development standards that elevated the company's engineering velocity. Spearheaded key infrastructure projects including a foundational server-side rendering framework, the establishment of a shared component library, a large-scale migration to TypeScript, and ensured the operational stability of all frontend services.",
+      "highlights": [
+        "Conceptualized, built, and launched an internal server-side rendering framework that standardized project scaffolding and deployment, dramatically reducing setup time for new services and now used by 5+ product teams.",
+        "Established the vision for and led the creation of an internal shared library, creating a single source of truth for components and utilities that reduced code duplication and improved consistency across the entire Wongnai ecosystem.",
+        "Led the complex, multi-team effort to adopt TypeScript across all major frontend services, resulting in a more robust, scalable, and self-documenting codebase.",
+        "Proactively enhanced team skill sets by organizing and leading training sessions on modern frontend practices, directly contributing to the team's technical growth and capabilities.",
+        "Managed the ongoing maintenance and monitoring for all production frontend and JavaScript services, ensuring high availability and rapid incident response."
+      ]
+    },
+    {
+      "position": "Part-time developer",
+      "releaseDate": "2018",
+      "summary": "Oversaw the maintenance and monitoring of the Wongnai ERP system while integrating third-party modules into the Odoo platform."
+    },
+    {
+      "position": "Developer Intern",
+      "releaseDate": "2017",
+      "summary": "Co-founded and engineered a new company-wide Enterprise Resource Planning (ERP) service from the ground up, designed to automate and integrate all accounting, sales, and operational workflows.",
+      "highlights": [
+        "Translated financial and operational requirements from the CFO into a company-wide Odoo automation platform, reporting all project progress directly to the CEO.",
+        "Led the technical evaluation of multiple Enterprise Resource Planning platforms, delivering proofs-of-concept that informed the selection of the most cost-effective and scalable solution.",
+        "Developed and customized third-party Odoo plugins to create bespoke automation flows, managing the entire lifecycle from development to final production deployment.",
+        "Authored comprehensive documentation and conducted training sessions for end-users and developers to ensure smooth adoption and facilitate long-term system maintenance."
+      ]
+    },
+    {
+      "summary": "Spearheaded the modernization of the Wongnai.com user profile page by migrating the legacy JSP implementation to a dynamic, component-based design in React. Additionally, developed the company's primary business contact form from scratch.",
+      "highlights": [
+        "Collaborated with UX designers to successfully launch a revamped, multi-feed user profile page, rebuilt entirely in React and deployed to production.",
+        "Built and delivered a critical business contact form, creating the primary inbound channel for all new partnership inquiries with Wongnai."
+      ]
+    },
+    {
+      "company": "AIMET",
+      "position": "Outsource Technical Consultant",
+      "startDate": "2023",
+      "summary": "Provided expert technical consultancy and mentorship to the frontend team, instituting best practices, standardizing processes, and providing architectural guidance across web (React) and mobile (React Native, Flutter) platforms to elevate product quality.",
+      "highlights": [
+        "Successfully upskilled a team of web developers with no prior mobile experience, enabling them to build and launch a production-grade, maintainable application using Flutter.",
+        "Established a scalable project architecture and mentored the team in modern development practices, resulting in more consistent and higher-quality code.",
+        "Advised the development team on practical strategies for implementing new features within a complex legacy React Native application, focusing on maintaining stability and minimizing new technical debt.",
+        "Evaluated and championed the adoption of new technologies, delivering proofs-of-concept (POCs) to solve key product challenges and guide the company's technical strategy.",
+        "Engineered and implemented an automated end-to-end (E2E) testing pipeline using GitHub Actions, significantly reducing manual testing efforts and accelerating the development feedback loop."
+      ]
+    },
+    {
+      "company": "Amity Solutions Company Limited",
+      "position": "Outsource Developer",
+      "startDate": "2023",
+      "endDate": "2024",
+      "summary": "Provided expert development and consultation for client-facing products, acting as a technical resource to bridge the gap between client vision and project execution.",
+      "highlights": [
+        "Led front-end development efforts in a cross-functional environment, collaborating with multiple teams to deliver a feature-rich document management system built on Next.js.",
+        "Oversaw the successful migration of a critical legacy PDF conversion service to a modern, high-performance Nest.js architecture, improving reliability and maintainability.",
+        "Designed and developed a vital proof-of-concept demonstrating the feasibility of integrating a modern notification system with a legacy third-party content service.",
+        "Partnered with a small outsourcing team to customize Amity's core Social and Chat SDKs, delivering unique functionality essential for a major client's product."
+      ]
+    },
+    {
+      "company": "Fullstack Enterprise Company Limited",
+      "position": "Outsource Developer",
+      "startDate": "2020",
+      "endDate": "2021",
+      "summary": "Led the complete technical overhaul of the company's primary human resource mobile application. Developed the application from scratch using React Native and established the engineering framework that enabled the company to successfully form its own in-house mobile team.",
+      "highlights": [
+        "Collaborated with product leadership to define technical requirements and deliver a fully revamped mobile application, enhancing user experience and modernizing the tech stack.",
+        "Instituted a robust project structure and defined clear coding standards, creating a sustainable and scalable foundation for future development and team growth.",
+        "Provided technical guidance on architectural decisions and quality assurance processes to ensure the final product met high standards of excellence."
+      ]
+    },
+    {
+      "company": "Interactive Media Design Lab (IMD) at Nara Institute of Science and Technology (NAIST)",
+      "position": "Research Intern",
+      "releaseDate": "2017",
+      "summary": "As a key member of a research initiative on Multimodal Interaction, was responsible for the technical integration of multiple sensor technologies to create a proof-of-concept system. This work combined augmented reality, depth sensing, and eye-tracking to explore next-generation user interfaces.",
+      "highlights": [
+        "Achieved a complex technical milestone by integrating Microsoft HoloLens, Intel RealSense, and Pupil Labs hardware into a cohesive multimodal interaction system from the ground up.",
+        "Developed a reusable SDK that abstracted the complexities of the integrated hardware, significantly accelerating subsequent research and development cycles.",
+        "The resulting prototype successfully demonstrated a novel interaction paradigm where users could manipulate augmented reality objects through intuitive hand gestures and eye-gaze."
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Local Tech Meetup",
-      "position": "Organizer",
-      "url": "https://techmeetup.com",
-      "startDate": "2021-01-01",
-      "summary": "Organize monthly meetups for local developers to share knowledge and network.",
-      "highlights": [
-        "Coordinated events with 50+ attendees",
-        "Invited speakers from major tech companies"
-      ]
+      "organization": "TEDxKasetsartU",
+      "position": "Web Developer Volunteer",
+      "releaseDate": "2018",
+      "summary": "Designed and developed a fully responsive, SEO-optimized landing page for the event, featuring an integrated YouTube Live stream to engage virtual attendees."
+    }
+  ],
+  "speaker": [
+    {
+      "organization": "BKK.js 23",
+      "position": "Session Speaker",
+      "releaseDate": "2025",
+      "url": "https://www.eventpop.me/e/96871/bkkjs-23",
+      "summary": "Delivered a technical presentation on creating the internal library ecosystem at LINE MAN Wongnai. The session detailed the journey from conception to implementation, sharing key strategies, challenges, and best practices with the developer community."
+    }
+  ],
+  "hackathon": [
+    {
+      "organization": "LINE HACK 2019",
+      "position": "Top 10 Finalist Teams",
+      "releaseDate": "2019",
+      "url": "https://github.com/S-O-L-A-R",
+      "summary": "Co-developed S.O.L.A.R, a restaurant management platform built on the LINE Frontend Framework (LIFF). The project leveraged advanced features like LINE Beacon for automatic table detection and real-time marketing, creating a seamless experience for owners, staff, and customers entirely within the LINE app."
     }
   ],
   "education": [
     {
       "institution": "Kasetsart University",
-      "url": "https://www.ku.ac.th/",
-      "area": "Computer Engineering",
+      "url": "https://www.ku.ac.th",
+      "area": "Software and Knowledge Engineering",
       "studyType": "Bachelor of Engineering",
-      "startDate": "2014-01-01",
-      "endDate": "2018-12-31",
-      "score": "",
-      "courses": [
-        "Software Engineering",
-        "Database Systems",
-        "Web Development",
-        "Computer Networks",
-        "Data Structures and Algorithms"
-      ]
+      "startDate": "2014",
+      "endDate": "2018",
+      "score": "3.31"
     }
   ],
   "awards": [
     {
-      "title": "JASSO Scholarship",
-      "date": "2017-06-01",
-      "awarder": "Japan Student Services Organization (JASSO)",
-      "summary": "Scholarship awarded for academic excellence and participation in Japanese business innovation program."
+      "title": "JASSO Scholarship (2017)",
+      "awarder": "Japan Student Services Organization (JASSO)"
     }
   ],
-  "certificates": [
-    {
-      "name": "Certificate of Completion \"Time Management\"",
-      "date": "2018-07-01",
-      "issuer": "Wongnai.com",
-      "url": ""
-    },
-    {
-      "name": "The Certificate of Completion \"THE COMPREHENSIVE COURSE IN JAPANESE BUSINESS INNOVATION\"",
-      "date": "2018-06-01",
-      "issuer": "Japanese Chamber of Commerce, Bangkok",
-      "url": ""
-    },
-    {
-      "name": "Certificate of Completion \"Writing Workshop\"",
-      "date": "2018-01-01",
-      "issuer": "Wongnai.com",
-      "url": ""
-    }
-  ],
-  "publications": [
-    {
-      "name": "Building Scalable Web Applications",
-      "publisher": "Tech Blog",
-      "releaseDate": "2023-01-10",
-      "url": "https://techblog.com/scalable-web-apps",
-      "summary": "An article discussing best practices for building scalable web applications."
-    }
-  ],
+  "certificates": [],
+  "publications": [],
   "skills": [
     {
-      "name": "Frontend Development",
-      "level": "Advanced",
+      "name": "Technical Skills",
       "keywords": [
-        "React",
-        "Vue.js",
-        "TypeScript",
-        "HTML5",
-        "CSS3",
-        "Sass"
-      ]
-    },
-    {
-      "name": "Backend Development",
-      "level": "Intermediate",
-      "keywords": [
-        "Node.js",
-        "Express.js",
-        "Python",
-        "Django",
-        "PostgreSQL",
-        "MongoDB"
-      ]
-    },
-    {
-      "name": "DevOps",
-      "level": "Intermediate",
-      "keywords": [
-        "Docker",
-        "AWS",
-        "CI/CD",
-        "GitHub Actions",
-        "Kubernetes"
+        "Web Development",
+        "Mobile Development",
+        "Frontend Cross Platform Development",
+        "Fullstack Development",
+        "Microservices Architecture",
+        "Library Ecosystem",
+        "Technical Solution Consultant",
+        "Technical Mentoring",
+        "AI Collaboration"
       ]
     }
   ],
   "languages": [
     {
       "language": "Thai",
-      "fluency": "Native or bilingual proficiency"
+      "fluency": "Native proficiency"
     },
     {
       "language": "English",
@@ -164,47 +325,35 @@
     {
       "name": "Technology",
       "keywords": [
-        "Open Source",
-        "Machine Learning",
-        "Blockchain"
+        "Framework Ecosystem",
+        "Automation Tools",
+        "Mixed Reality"
       ]
     },
     {
       "name": "Hobbies",
       "keywords": [
-        "Photography",
-        "Hiking",
-        "Reading"
+        "Cafe Hopping",
+        "Sightseeing",
+        "Painting"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Jane Doe",
-      "reference": "It is my pleasure to recommend [Your Name]. They are a dedicated and skilled developer who consistently delivers high-quality work."
-    }
-  ],
+  "references": [],
   "projects": [
     {
-      "name": "Personal Portfolio",
-      "description": "A responsive portfolio website showcasing my projects and skills",
+      "name": "Intel Realsense Hand Toolkit Unity",
+      "description": "An open-source SDK designed to seamlessly integrate the Intel RealSense SDK with the Unity engine, providing developers with a streamlined interface for implementing hand and gesture recognition.",
       "highlights": [
-        "Built with React and deployed on Netlify",
-        "Integrated with headless CMS for easy content management"
+        "Engineered a robust event system that translates raw data from the RealSense SDK into native, easily consumable Unity events.",
+        "Designed an all-in-one Unity package that automates the SDK integration, drastically simplifying the project setup process for developers."
       ],
-      "keywords": [
-        "React",
-        "Netlify",
-        "CMS"
-      ],
-      "startDate": "2022-03-01",
-      "endDate": "2022-04-15",
-      "url": "https://yourportfolio.com",
+      "startDate": "2017",
+      "endDate": "2019",
+      "url": "https://github.com/ReiiYuki/Intel-Realsense-Hand-Toolkit-Unity",
       "roles": [
-        "Full-stack Developer"
-      ],
-      "entity": "Personal Project",
-      "type": "website"
+        "Individual Contributor"
+      ]
     }
   ]
 }

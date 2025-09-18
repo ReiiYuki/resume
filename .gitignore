@@ -138,4 +138,10 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
+# PDF generation temporary files
+.pdfurl.tmp
+resume.json.backup
+
 index.html
+resume.html
+resume.pdf

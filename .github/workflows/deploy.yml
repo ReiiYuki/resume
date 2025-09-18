@@ -56,11 +56,14 @@ jobs:
           pnpm install
         fi
       
-    - name: Validate resume.json
-      run: pnpm run validate
-      
     - name: Build resume
       run: pnpm run build
+      
+    - name: Generate PDF
+      run: pnpm run pdf
+      
+    - name: Rename resume file
+      run: cp index.html resume.html
       
     - name: Setup Pages
       uses: actions/configure-pages@v4

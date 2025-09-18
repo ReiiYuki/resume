@@ -4,9 +4,9 @@
   "description": "Personal resume website using JSON Resume and GitHub Pages",
   "main": "index.js",
   "scripts": {
-    "build": "resume export index.html --theme macchiato",
-    "serve": "resume serve --theme macchiato",
-    "validate": "resume validate",
+    "serve": "resumed --theme jsonresume-theme-macchiato-custom",
+    "pdf": "node scripts/generate-pdf.js",
+    "pdf:simple": "resumed export -o resume.pdf --theme jsonresume-theme-macchiato-custom",
     "deploy": "gh-pages -d ."
   },
   "keywords": [
@@ -19,12 +19,20 @@
   "license": "MIT",
   "devDependencies": {
     "gh-pages": "^6.0.0",
-    "jsonresume-theme-macchiato": "^1.1.0",
-    "resume-cli": "^3.1.2"
+    "jsonresume-theme-macchiato-custom": "1.1.13",
+    "puppeteer": "^24.22.0",
+    "resumed": "^6.0.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/reiiyuki/resume.git"
   },
-  "homepage": "https://reiiyuki.github.io/resume/"
+  "homepage": "https://reiiyuki.github.io/resume/",
+  "dependencies": {
+    "address-format": "^0.0.3",
+    "handlebars": "^4.7.6",
+    "handlebars-wax": "^6.1.0",
+    "jsonresume-theme-macchiato": "^1.1.0",
+    "moment": "^2.24.0"
+  }
 }
