@@ -46,8 +46,21 @@ function generatePdf() {
     
     // If PUPPETEER_ARGS is set (from CI), use those arguments
     if (process.env.PUPPETEER_ARGS) {
+      // Set multiple environment variables that different tools might use
       env.PUPPETEER_LAUNCH_ARGS = process.env.PUPPETEER_ARGS;
+      env.CHROME_ARGS = process.env.PUPPETEER_ARGS;
+      env.PUPPETEER_ARGS = process.env.PUPPETEER_ARGS;
+      
+      // Set specific Puppeteer environment variables
+      env.PUPPETEER_SKIP_CHROMIUM_DOWNLOAD = 'false';
+      env.PUPPETEER_EXECUTABLE_PATH = '';
+      
       log(`Using Puppeteer args: ${process.env.PUPPETEER_ARGS}`);
+    }
+    
+    // Add display environment for headless mode
+    if (!env.DISPLAY) {
+      env.DISPLAY = ':99';
     }
     
     execSync('resumed export -o resume.pdf --theme jsonresume-theme-macchiato-custom', {
