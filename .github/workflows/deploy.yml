@@ -59,6 +59,9 @@ jobs:
     - name: Build resume
       run: pnpm serve
       
+    - name: Install Chrome for Puppeteer
+      run: npx puppeteer browsers install chrome
+      
     - name: Generate PDF
       run: pnpm pdf
       
