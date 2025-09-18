@@ -57,10 +57,10 @@ jobs:
         fi
       
     - name: Build resume
-      run: pnpm run serve
+      run: pnpm serve
       
     - name: Generate PDF
-      run: pnpm run pdf
+      run: pnpm pdf
       
     - name: Rename resume file
       run: cp index.html resume.html
