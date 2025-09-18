@@ -57,7 +57,7 @@ jobs:
         fi
       
     - name: Build resume
-      run: pnpm run build
+      run: pnpm run serve
       
     - name: Generate PDF
       run: pnpm run pdf
