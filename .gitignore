@@ -142,6 +142,9 @@ vite.config.ts.timestamp-*
 .pdfurl.tmp
 resume.json.backup
 
+# Puppeteer cache
+.cache/
+
 index.html
 resume.html
 resume.pdf

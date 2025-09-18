@@ -52,8 +52,13 @@ function generatePdf() {
       env.PUPPETEER_ARGS = process.env.PUPPETEER_ARGS;
       
       // Set specific Puppeteer environment variables
-      env.PUPPETEER_SKIP_CHROMIUM_DOWNLOAD = 'false';
-      env.PUPPETEER_EXECUTABLE_PATH = '';
+      env.PUPPETEER_SKIP_CHROMIUM_DOWNLOAD = process.env.PUPPETEER_SKIP_CHROMIUM_DOWNLOAD || 'false';
+      
+      // Use the executable path if provided
+      if (process.env.PUPPETEER_EXECUTABLE_PATH) {
+        env.PUPPETEER_EXECUTABLE_PATH = process.env.PUPPETEER_EXECUTABLE_PATH;
+        log(`Using Chrome executable: ${process.env.PUPPETEER_EXECUTABLE_PATH}`);
+      }
       
       log(`Using Puppeteer args: ${process.env.PUPPETEER_ARGS}`);
     }

@@ -60,7 +60,9 @@ jobs:
       run: pnpm serve
       
     - name: Install Chrome for Puppeteer
-      run: npx puppeteer browsers install chrome
+      run: |
+        npx puppeteer browsers install chrome
+        echo "PUPPETEER_EXECUTABLE_PATH=$(npx puppeteer browsers install chrome | grep -o '/[^[:space:]]*chrome')" >> $GITHUB_ENV
       
     - name: Setup virtual display
       run: |
@@ -73,6 +75,7 @@ jobs:
       run: pnpm pdf
       env:
         DISPLAY: :99
+        PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
         PUPPETEER_ARGS: "--no-sandbox --disable-setuid-sandbox --disable-dev-shm-usage --disable-accelerated-2d-canvas --no-first-run --no-zygote --single-process --disable-gpu --headless=new"
       
     - name: Rename resume file
